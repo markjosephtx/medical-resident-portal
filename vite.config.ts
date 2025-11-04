@@ -5,10 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: '/Medical-Resident-Portal/', // Replace with your repository name
-    build: {
-      outDir: 'dist', // Ensure the output directory is set to 'dist'
-    },
+    base: '/medical-resident-portal/', // Replace with your repository name
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {

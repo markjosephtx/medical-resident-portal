@@ -1,9 +1,9 @@
 {
-      "name": "Medical Student Resident Portal",
-      "homepage": "https://markjosephtx.github.io/lofi-cafe/",
+      "name": "Medical Resident Portal",
+      "homepage": "https://markjosephtx.github.io/medical-resident-portal/",
       "repository": {
       "type": "git",
-      "url": "https://github.com/markjosephtx/Medical-Resident-Portal.git"
+      "url": "https://github.com/markjosephtx/medical-resident-portal.git"
      },
       "version": "0.1.0",
       "private": true,
@@ -61,7 +61,7 @@
         "dev": "vite",
         "build": "vite build",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build --repo https://github.com/markjosephtx/Medical-Resident-Portal.git",
+        "deploy": "gh-pages -d build --repo https://github.com/markjosephtx/medical-resident-portal.git",
         "lint": "eslint .",
         "preview": "vite preview"
       }
